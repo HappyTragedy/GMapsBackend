@@ -46,6 +46,13 @@
             ]
         },
         {
+            "src": "/marker/(?<id>[^/]+)",
+            "dest": "/app.js/?id=$id",
+            "methods": [
+                "GET"
+            ]
+        },
+        {
             "src": "/markers",
             "dest": "/app.js",
             "methods": [
